@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+from doten.v import load_dotenv
 from sqlalchemy import create_engine,select,insert,update,delete,func
 from sqlalchemy import Column,Integer,String,ForeignKey
 from sqlalchemy.orm import relationship,sessionmaker,declarative_base
